@@ -53,7 +53,7 @@
   height: 214px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .welcome_card .welcome_box .welcome_box_btn .btn_bottom {

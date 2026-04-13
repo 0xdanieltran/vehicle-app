@@ -52,25 +52,6 @@
   background: #2e2e2e;
 }
 
-.searchBar {
-  position: relative;
-  height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-bottom: 8px;
-}
-.searchBar input {
-  width: 310px;
-  height: 100%;
-  border: 2px solid #169fdb;
-  padding: 0 22px;
-}
-.searchBar img {
-  position: absolute;
-  right: 22px;
-}
-
 .searchInfo {
   margin-bottom: 16px;
   color: #000;

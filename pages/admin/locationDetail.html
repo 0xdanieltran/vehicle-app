@@ -93,7 +93,15 @@
       <div class="wrapper">
         <div id="locationDetail" class="hoc clear">
           <div class="locationDetail_container">
-            <div class="heading">NAZWA LOKALIZACJI</div>
+            <div class="heading">
+              <h2>NAZWA LOKALIZACJI</h2>
+              <img
+                src="../../images/admin/setting.png"
+                style="background-color: blue;"
+                alt="setting"
+                id="editLocationName"
+              />
+            </div>
             <div class="content">
               <div class="left_bar list_box">
                 <div class="list_header">
@@ -252,6 +260,59 @@
         </div>
       </div>
 
+      <div class="add_to_device_modal add_user">
+        <div class="modal_content">
+          <div class="header">
+            <p>Add User</p>
+          </div>
+          <div class="content">
+            <select name="selectUser" class="user_form selectUser">
+              <option name="#">--- Select User ---</option>
+            </select>
+            <div class="modal_footer">
+              <button class="cancel_btn user_cancel_btn">Anuluj</button>
+              <button class="add_btn user_modify_btn">DODAJ URZĄDZENIA</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="add_to_device_modal add_device">
+        <div class="modal_content">
+          <div class="header">
+            <p>Add Device</p>
+          </div>
+          <div class="content">
+            <select name="selectDevice" class="user_form selectDevice">
+              <option name="#">--- Select Device ---</option>
+            </select>
+            <div class="modal_footer">
+              <button class="cancel_btn device_cancel_btn">Anuluj</button>
+              <button class="add_btn device_modify_btn">
+                DODAJ URZĄDZENIA
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edit_location_modal">
+        <div class="modal_content">
+          <div class="header">
+            <p>Edit Location Name</p>
+          </div>
+          <div class="content">
+            <input type="text" class="user_form">
+            <div class="modal_footer">
+              <button class="cancel_btn location_cancel_btn">Anuluj</button>
+              <button class="add_btn location_modify_btn">
+                DODAJ URZĄDZENIA
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Footer -->
       <div class="wrapper custom_footer">
         <div id="copyright" class="hoc clear">
@@ -295,6 +356,10 @@
         $(".logout_box").on("click", function () {
           window.location.href = "../../index.html";
         });
+
+        $("#editLocationName").on('click', function() {
+          alert('edit');
+        })
       });
     </script>
   </body>

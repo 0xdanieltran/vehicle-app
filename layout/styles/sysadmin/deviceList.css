@@ -158,3 +158,71 @@ tr:nth-child(even) {
 .remove_content .content .button_group .agree {
   background: #169fdb;
 }
+
+.addAccount_modal {
+  display: block;
+  transition: 1s;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.account_modal_content {
+  width: 552px;
+  background-color: #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.account_modal_content .header {
+  height: 59px;
+  background: #169fdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account_modal_content .header p {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.account_modal_content .content {
+  height: 277px;
+  padding: 38px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #e9e9e9;
+}
+.account_modal_content .content .device_form {
+  width: 100%;
+  height: 53px;
+  padding-left: 26px;
+  padding-right: 23px;
+  border: none;
+}
+.account_modal_content .content .modal_footer {
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  width: 100%;
+  margin-right: 0;
+  margin-left: auto;
+}
+.account_modal_content .content .modal_footer button {
+  width: 141px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.account_modal_content .content .modal_footer .account_cancel_btn {
+  background: #2e2e2e;
+}
+.account_modal_content .content .modal_footer .account_add_btn {
+  background: #169fdb;
+}
