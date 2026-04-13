@@ -1,0 +1,60 @@
+#newLocation {
+  display: flex;
+  justify-content: center;
+}
+
+.newLocation_container {
+  width: 712px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newLocation_card {
+  width: 100%;
+  margin-bottom: 62px;
+  display: flex;
+  flex-direction: column;
+}
+.newLocation_card .header {
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #169fdb;
+}
+.newLocation_card .header p {
+  padding: 0 17px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.newLocation_card .content {
+  padding: 45px 132px 52px 111px;
+  background-color: #e9e9e9;
+}
+.newLocation_card .content .newDevice_form {
+  height: 53px;
+  width: 100%;
+  border: none;
+  padding-left: 26px;
+  margin-bottom: 18px;
+}
+.newLocation_card .content .newDevice_form:last-child {
+  margin-bottom: 0;
+  border-right: 20px solid transparent;
+  color: black;
+}
+
+.newDevice_btn {
+  width: 287px;
+  height: 53px;
+  background-color: #169fdb;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.newDevice_btn:hover {
+  background: #2e2e2e;
+}

@@ -1,0 +1,219 @@
+#locationDetail {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .locationDetail_container {
+    width: 868px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .heading {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 27px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .content .left_bar,
+  .right_bar {
+    width: 425px;
+    height: 460px;
+  }
+  
+  .list_box .list_header {
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list_box .list_header img {
+    width: 33px;
+    height: 33px;
+  }
+  .list_box .list_header .header_title {
+    color: #fff;
+    margin-left: 21px;
+    font-size: 16px;
+  }
+  .left_bar.list_box .list_content {
+    height: 400px;
+    overflow-y: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 10px solid #e9e9e9;
+    padding: 0 10px 0 0;
+    background: #e9e9e9;
+  }
+  .right_bar.list_box .list_content {
+    height: 350px;
+    overflow-y: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 10px solid #e9e9e9;
+    padding: 0 10px 0 0;
+    background: #e9e9e9;
+  }
+  .list_box .list_content::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+  }
+  .list_box .list_content::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+    background-clip: padding-box;
+  }
+  .list_box .list_content::-webkit-scrollbar-thumb {
+    background: #707070;
+    border-radius: 10px;
+    background-clip: padding-box;
+  }
+  .list_box .list_content li {
+    background-color: #e9e9e9;
+    border-bottom: 1px solid #fff;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0 10px;
+  }
+  .list_box .list_content li:hover {
+    background: rgba(0, 0, 0, 0.28);
+  }
+  .list_box .list_content li h4 {
+    font-size: 20px;
+    color: #000;
+  }
+  .list_box .list_content li img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .list_box .content_box {
+    height: 400px;
+    background: #e9e9e9;
+    position: relative;
+  }
+  .list_box .content_box .add_user {
+    background: #169fdb;
+    width: 83px;
+    height: 53px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .list_box .content_box .add_user:hover {
+    background: #2e2e2e;
+  }
+
+  .list_box .content_box .add_device {
+    background: #169fdb;
+    width: 83px;
+    height: 53px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .list_box .content_box .add_device:hover {
+    background: #2e2e2e;
+  }
+  
+  .left_bar.list_box .list_header {
+    background: #2e2e2e;
+  }
+  .right_bar.list_box .list_header {
+    background-color: #169fdb;
+  }
+
+  
+.add_to_device_modal{
+  display: none;
+  transition: 1s;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.add_to_device_modal .modal_content {
+  width: 552px;
+  background-color: #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.add_to_device_modal .header {
+  height: 59px;
+  background: #169fdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add_to_device_modal .header p {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.add_to_device_modal .content {
+  height: auto;
+  padding: 38px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #e9e9e9;
+}
+.add_to_device_modal .content .user_form {
+  width: 100%;
+  height: 53px;
+  padding-left: 26px;
+  padding-right: 23px;
+  border: none;
+}
+.add_to_device_modal .content .modal_footer {
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  width: 100%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 39px;
+}
+.add_to_device_modal .content .modal_footer button {
+  width: 141px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.add_to_device_modal .content .modal_footer .cancel_btn {
+  background: #2e2e2e;
+}
+.add_to_device_modal .content .modal_footer .add_btn {
+  background: #169fdb;
+}
+
+  

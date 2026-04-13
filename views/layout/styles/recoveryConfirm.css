@@ -1,0 +1,81 @@
+#recovery {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.recovery_container {
+  padding: 0 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo_img {
+  width: 206px;
+  height: 186px;
+  margin-bottom: 68px;
+}
+
+.recovery_box {
+  width: 552px;
+  height: 322px;
+  display: flex;
+  flex-direction: column;
+}
+.recovery_box .recovery_heading {
+  width: 100%;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2E2E2E;
+}
+.recovery_box .recovery_heading .recovery_heading_content {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.recovery_card {
+  width: 100%;
+  padding: 41px;
+  background: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+}
+.recovery_box .recovery_card .recovery_info {
+  width: 100%;
+  height: 103px;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.recovery_box .recovery_card .recovery_info .imgBox {
+  width: 60px;
+  height: 50px;
+  background-color: #169FDB;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recovery_box .recovery_card .recovery_info .infoTitle {
+  padding-left: 17px;
+  color: #000;
+}
+.recovery_box .recovery_card .recovery_confirm_btn {
+  margin-top: 22px;
+  width: 100%;
+  height: 53px;
+  background-color: rgb(13, 159, 243);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.recovery_box .recovery_card .recovery_confirm_btn:hover {
+  background: #2E2E2E;
+}

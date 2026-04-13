@@ -1,0 +1,16 @@
+{
+	"SysAdmin": {
+		"user_name": "sysadmin",
+		"user_fullname": "sysadmin",
+		"email": "sysadmin@gmail.com",
+		"role": "100",
+		"password": "96e79218965eb72c92a549dd5a330112",
+		"account_id": "1",
+		"flag_del": "0"
+	},
+	"Account": {
+		"account_name": "BMW",
+		"account_fullname":"BMW BMW",
+		"flag_del":"0"
+	}
+}
